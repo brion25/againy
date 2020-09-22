@@ -1,3 +1,3 @@
 module.exports = (stub) => ({
-    render: stub
-})
+  render: stub,
+});
