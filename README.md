@@ -41,6 +41,9 @@ module.exports = {
     ]
 }
 ```
+
+**Note:** Values in `entries` are going to be asked using the package `prompts`, if you pass just an string like in the example, it is going to ask for an string, but you can pass the same config option like the [docs](https://www.npmjs.com/package/prompts#%E2%9D%AF-api) say
+
 **`.againy/templates/feature.txt`**
 ```
 Hello {{name}}! I'm a template 
@@ -197,4 +200,4 @@ Name of the task to be run
 |---|---|---|
 | `--variant` | Used when you want to run an specific variant of the steps |   |
 | `--conf` | Path of the folder steps to look for | `.againy/` |
-| `--update-matcher` | Comment used to place the new code on existing files | `// againy --> ` |
+| `--matcher` | Comment used to place the new code on existing files | `// againy --> ` |
