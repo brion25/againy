@@ -41,5 +41,10 @@
   },
   "bin": {
     "againy": "./bin/againy.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
